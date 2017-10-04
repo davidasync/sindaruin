@@ -1,0 +1,22 @@
+@media screen and (max-width: 600px) {
+    .home h1
+	{
+		font-size: 50px;
+		margin-top: 70px;
+	}
+
+	.firstsubprofile
+	{
+		font-size: 12px;
+	}
+
+		.firstsubprofile p
+		{
+			font-size: 36px;
+		}
+
+	#kaoriicon
+	{
+		margin-top: 40px;
+	}
+}

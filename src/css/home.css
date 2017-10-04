@@ -1,0 +1,234 @@
+body{
+	background: url(../Images/wallpaper1.jpg)  no-repeat center center fixed; 
+	background-size: cover;
+	margin:0;
+}
+
+html, body
+{
+	margin:0;
+	padding:0;
+	cursor: default;
+	height: 100%;
+}
+
+@font-face
+{
+	font-family: 'Smart_Kid';
+	src: url(../font/Smart_Kid.otf) format('opentype');
+}
+	.wrapper
+	{
+		position: relative;
+		margin: 0 auto;
+	}
+
+		.header
+		{
+			height: 75px;
+			width: 100%;
+			position: fixed;
+			padding-top: 1%;
+			background-color: transparent;
+			transition: 0.3s;
+			z-index: 200;
+			margin-top:-18px;
+		}
+
+		.scrolldown
+		{
+			background-color: #2F2F2D;
+			height:60px;
+			padding-top:0;
+		}
+
+			.navigationBar
+			{
+				color:white;
+			}
+				#logo
+				{
+					position: absolute;
+					margin-left: 6%;
+					margin-top:-5px;
+					width: auto;
+					height: 45px;
+					/*-moz-box-shadow: 0 0 5px #fff;
+					-webkit-box-shadow: 0 0 5px #fff;
+					box-shadow: 0px 0px 5px #fff;*/
+				}
+
+				.navigationBar li
+				{
+					text-decoration: none;
+					text-align: center;
+					display: inline;
+					margin: 0 4%;
+					color:inherit;
+					float: right;
+					font-size: 24px;
+					font-family: Smart_Kid;
+				}
+
+				.navigationBar li a
+				{
+					color:inherit;
+					text-decoration: none;
+				}
+
+				.navigationBar li a:hover
+				{
+					/*color:#66CCFF;*/
+					text-decoration: none;
+					-moz-text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px beige;
+					-webkit-text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px beige;
+					text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px beige;
+				}
+
+		.home
+		{
+			position: absolute;
+			height: 80%;
+			margin-top: 350px;
+			margin-left:5%;
+			color:white;
+			width: 650px;
+		}
+
+			.home h1
+			{
+				font-size: 60px;
+				font-weight: 100;
+				font-family: Smart_Kid;
+			}
+
+			.txt-rotate
+			{
+				min-width: 983px;
+				color:#66CCFF;
+			}
+
+			#know
+			{
+				position: absolute;
+				color:white;
+				font-family: Smart_Kid;
+				font-size: 24px;
+				border: 1px solid white;
+				border-radius: 30px;
+				min-width: 192px;
+				padding:1%;
+			}
+
+			#know:hover
+			{
+			    -webkit-animation : khover 0.2s ease-in-out forwards;
+			}
+
+			/* Chrome, Safari, Opera */
+			@-webkit-keyframes khover 
+			{
+			    100% {
+			    	background-color: white;
+			    	color:black;
+			    }
+			}
+
+		.profile
+		{
+			position: absolute;
+			color:white;
+			margin-top: 750px;
+			width: 100%;
+			height:650px;
+		}
+			.firstsubprofile
+			{
+				height: 400px;
+				padding-top: 30px;
+				font-family: Smart_Kid;
+				background-color: #66CCFF;
+			}
+
+				.firstsubprofile p
+				{
+					font-size: 36px;
+				}
+
+			.secondsubprofile
+			{
+				height: 300px;
+				font-family: Smart_Kid;
+				background-color: white;
+				padding-top: 100px;	
+				
+			}
+				.subprofilecontainer
+				{
+					width: 80%;
+					margin: 0 auto;	
+					background-color: 50px;
+				}
+
+				.sub
+				{
+					float: left;
+					padding: 4%;
+					width: 25.3%;
+					height: 155px;
+					text-align: center;
+					color: black;
+					/*border-radius: 100%;
+					border: solid 1px;*/
+				}
+
+				.subimg
+				{
+					border: solid 1px transparent;
+					margin: 0 auto;
+					width: 50px;
+					height: 50px;
+					padding:10%;
+					border-radius: 35%;
+					transition: 0.2s;
+				}
+
+				.subimg:hover
+				{
+					border: solid 1px #66CCFF;
+					background-color:#66CCFF;
+				}
+
+				.subfirst:hover
+				{
+					content: url('../Images/hovercoffee.png');
+
+				}
+
+				.subsecond:hover
+				{
+					content: url('../Images/hovercompicon.png');
+
+				}
+
+				.subthird:hover
+				{
+					content: url('../Images/hovergame_icon.png');
+				}
+
+
+
+				/*.clear
+				{
+					clear:both;
+				}*/
+
+		.footer
+		{
+			height: 150px;
+		}
+		
+		
+
+
+
